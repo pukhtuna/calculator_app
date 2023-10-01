@@ -11,3 +11,8 @@ This simple calculator app was built using Flutter, a popular open-source UI sof
 - Error handling to prevent invalid calculations.
 - Clear button to reset the input and results.
 - Dark and light themes for better user experience.
+
+## Authors
+
+Saad Aslam
+LinkedIn: ![https://www.linkedin.com/in/saad-aslam-277669132/]
