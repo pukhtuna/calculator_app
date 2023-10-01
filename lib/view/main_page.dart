@@ -4,6 +4,7 @@ import 'package:calculator_app/util/shared_code.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CalculatorScreen extends StatefulWidget {
   const CalculatorScreen({super.key});
@@ -57,10 +58,12 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
             const SizedBox(height: 10),
             Obx(() => Container(
                   alignment: Alignment.centerRight,
-                  child: CustomText(
-                    text: calculatorController.result.value,
-                    fontSize: 35,
-                    fontWeight: FontWeight.w600,
+                  child: SelectableText(
+                    calculatorController.result.value,
+                    style: GoogleFonts.aBeeZee(
+                      fontSize: 35,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 )),
             const Spacer(),
