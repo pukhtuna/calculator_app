@@ -15,4 +15,4 @@ This simple calculator app was built using Flutter, a popular open-source UI sof
 ## Authors
 
 Saad Aslam
-LinkedIn: ![https://www.linkedin.com/in/saad-aslam-277669132/]
+LinkedIn: https://www.linkedin.com/in/saad-aslam-277669132/
